@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		1F2BE16C2C23134D00DDC139 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2BE16B2C23134D00DDC139 /* AppDelegate.swift */; };
 		1F2BE16E2C23134D00DDC139 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2BE16D2C23134D00DDC139 /* SceneDelegate.swift */; };
-		1F2BE1702C23134D00DDC139 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2BE16F2C23134D00DDC139 /* ViewController.swift */; };
 		1F2BE1732C23134D00DDC139 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1F2BE1722C23134D00DDC139 /* Base */; };
 		1F2BE1752C23134F00DDC139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2BE1742C23134F00DDC139 /* Assets.xcassets */; };
 		1F2BE1782C23134F00DDC139 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1F2BE1772C23134F00DDC139 /* Base */; };
+		1F2BE1802C231D4A00DDC139 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2BE17F2C231D4A00DDC139 /* ListController.swift */; };
+		1F2BE1822C23216300DDC139 /* TextPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2BE1812C23216300DDC139 /* TextPicker.swift */; };
+		1F2BE1842C23295800DDC139 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2BE1832C23295800DDC139 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F2BE1682C23134D00DDC139 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2BE16B2C23134D00DDC139 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F2BE16D2C23134D00DDC139 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F2BE16F2C23134D00DDC139 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1F2BE1722C23134D00DDC139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F2BE1742C23134F00DDC139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F2BE1772C23134F00DDC139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F2BE1792C23134F00DDC139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F2BE17F2C231D4A00DDC139 /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		1F2BE1812C23216300DDC139 /* TextPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPicker.swift; sourceTree = "<group>"; };
+		1F2BE1832C23295800DDC139 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				1F2BE16B2C23134D00DDC139 /* AppDelegate.swift */,
 				1F2BE16D2C23134D00DDC139 /* SceneDelegate.swift */,
-				1F2BE16F2C23134D00DDC139 /* ViewController.swift */,
 				1F2BE1712C23134D00DDC139 /* Main.storyboard */,
+				1F2BE17F2C231D4A00DDC139 /* ListController.swift */,
+				1F2BE1832C23295800DDC139 /* Model.swift */,
+				1F2BE1812C23216300DDC139 /* TextPicker.swift */,
 				1F2BE1742C23134F00DDC139 /* Assets.xcassets */,
 				1F2BE1762C23134F00DDC139 /* LaunchScreen.storyboard */,
 				1F2BE1792C23134F00DDC139 /* Info.plist */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F2BE1702C23134D00DDC139 /* ViewController.swift in Sources */,
+				1F2BE1842C23295800DDC139 /* Model.swift in Sources */,
 				1F2BE16C2C23134D00DDC139 /* AppDelegate.swift in Sources */,
 				1F2BE16E2C23134D00DDC139 /* SceneDelegate.swift in Sources */,
+				1F2BE1822C23216300DDC139 /* TextPicker.swift in Sources */,
+				1F2BE1802C231D4A00DDC139 /* ListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
